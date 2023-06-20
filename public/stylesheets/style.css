@@ -1,0 +1,145 @@
+body {
+  background-color: bisque;
+}
+
+/* ---------------------------------------------HOME----------------------------------------------------------- */
+
+#home-header h1 {
+  color: black;
+  margin-bottom: 0px;
+  font-size: 100px;
+}
+
+#home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10em;
+  margin-bottom: 100px;
+}
+#home-links {
+  margin-top: 200px;
+  margin-right: 350px;
+}
+#home-links li a {
+  font-size: 100px;
+  list-style: none;
+  text-decoration: none;
+}
+#home-links li a:hover {
+  cursor: pointer;
+  background-color: #bfbdb8;
+}
+
+#home-footer {
+  justify-content: center;
+  text-align: center;
+}
+/* ---------------------------------------------ABOUT----------------------------------------------------------- */
+
+#about-screen {
+  display: flex;
+  justify-content: space-around;
+  gap: 10em;
+}
+
+#about-header h1 {
+  color: black;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 80px;
+}
+
+#left-side {
+  display: inline-block;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+#left-side p {
+  color: #666;
+  font-size: 20px;
+  font-family: "Heebo" !important;
+}
+
+#right-side {
+  display: inline-block;
+  height: 900px;
+  width: 1200px;
+  margin-right: 500px;
+}
+
+#right-side h2 {
+  color: #333;
+  font-size: 32px;
+}
+
+#right-side p {
+  color: #666;
+  font-size: 20px;
+  font-family: "Heebo" !important;
+}
+
+#btn a {
+  font-size: 20px;
+}
+
+#about-logo img {
+  height: 500px;
+  width: 350px;
+  margin-left: 10px;
+}
+
+#about-footer {
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* ---------------------------------------------WORKS----------------------------------------------------------- */
+
+#works-header h1 {
+  color: black;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 80px;
+}
+
+#section1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#section1 h2 {
+  color: #540e0e;
+  margin-bottom: 20px;
+  font-size: 120px;
+}
+
+#section1 img {
+  margin-top: 40px;
+  height: 900px;
+  width: 600px;
+}
+
+#movies {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#section2 h2 {
+  color: #666;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 60px;
+}
+
+.movie-poster img {
+  height: 100%;
+  width: 100%;
+}
